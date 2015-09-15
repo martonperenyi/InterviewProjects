@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignatureGroupConverter.Core", "SignatureGroupConverter.Core\SignatureGroupConverter.Core.csproj", "{8AE1DB03-78CF-4ECA-8BA7-B30CEC2C7B3B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignatureGroupConverter.Tests", "SignatureGroupConverter.Tests\SignatureGroupConverter.Tests.csproj", "{A1F0D9EC-65E1-4C5F-BAA4-6AD0F2A8BF2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartUp", "StartUp\StartUp.csproj", "{36E5287C-6FF1-4946-9597-2786950C9F82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloP", "HelloP\HelloP.csproj", "{D92048A8-2330-42AF-822C-029F8D8C4836}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{A1F0D9EC-65E1-4C5F-BAA4-6AD0F2A8BF2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1F0D9EC-65E1-4C5F-BAA4-6AD0F2A8BF2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1F0D9EC-65E1-4C5F-BAA4-6AD0F2A8BF2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36E5287C-6FF1-4946-9597-2786950C9F82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36E5287C-6FF1-4946-9597-2786950C9F82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36E5287C-6FF1-4946-9597-2786950C9F82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36E5287C-6FF1-4946-9597-2786950C9F82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D92048A8-2330-42AF-822C-029F8D8C4836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D92048A8-2330-42AF-822C-029F8D8C4836}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D92048A8-2330-42AF-822C-029F8D8C4836}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D92048A8-2330-42AF-822C-029F8D8C4836}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

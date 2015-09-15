@@ -4,15 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8AE1DB03-78CF-4ECA-8BA7-B30CEC2C7B3B}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{36E5287C-6FF1-4946-9597-2786950C9F82}</ProjectGuid>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SignatureGroupConverter.Core</RootNamespace>
-    <AssemblyName>SignatureGroupConverter.Core</AssemblyName>
+    <RootNamespace>StartUp</RootNamespace>
+    <AssemblyName>StartUp</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,6 +24,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -40,10 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ListHelper.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SignatureGroupConverter.Core\SignatureGroupConverter.Core.csproj">
+      <Project>{8ae1db03-78cf-4eca-8ba7-b30cec2c7b3b}</Project>
+      <Name>SignatureGroupConverter.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SignatureGroupConverter.Tests\SignatureGroupConverter.Tests.csproj">
       <Project>{a1f0d9ec-65e1-4c5f-baa4-6ad0f2a8bf2a}</Project>
       <Name>SignatureGroupConverter.Tests</Name>
