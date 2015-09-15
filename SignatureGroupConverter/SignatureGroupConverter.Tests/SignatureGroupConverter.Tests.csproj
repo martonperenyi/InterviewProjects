@@ -29,6 +29,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="FluentAssert, Version=1.0.0.11, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\FluentAssert.1.0.0.11\lib\FluentAssert.dll</HintPath>
